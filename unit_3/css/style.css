@@ -4,7 +4,7 @@ h1 {
 
 body {
   text-align: center;
-  background: url('file:///Users/Caitlin/Desktop/cmcallas.github.io/unit_3/images/horse.jpg') no-repeat center center fixed;
+  background: url('../images/horse.jpg') no-repeat center center fixed;
   background-size:cover;
   color: #fff;
   font-family: Avenir, sans-serif;
