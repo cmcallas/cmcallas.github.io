@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 h1 {
-  
+ text-align: left;
+ font-family: 'Slabo 27px', serif; 
 }
 
 body {
@@ -8,5 +10,7 @@ body {
   background-size:cover;
   color: #fff;
   font-family: Avenir, sans-serif;
-  margin: 2em; 
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 2em;
  }

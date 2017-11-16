@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background: #fff
+
+  color: #A9A9A9;
+  font-family: Avenir, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 2em;
+ }
+
+ h1 {
+ text-align: center;
+ font-family: 'Georgia', serif;
+ font-size: 2em;
+}
+
+.title {
+	padding:2em;
+}
+
+.content {
+flex-direction: row;
+align-content: space-between;
+display: flex;
+}
+
+.image {
+flex:1;	
+padding: 2em;
+}
+
+.poem {
+flex:1;
+padding-left: 2em;
+text-align: left;
+}
+
+
+p {
+	width: 40%;
+}
