@@ -2,12 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../images/faveicon.png"/>
     <title>Contact</title>
     <link rel="stylesheet" href="../styles/reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/contact.css">
     <link rel="stylesheet" href="../styles/fade.css">
   </head>
+  
   <body>
     <div id="container">
       <div id="header">
@@ -29,8 +31,8 @@
       <div id="main-contact">
         <h1 id="hi">Say Hello!</h1>
         <ul id="list2">
-          <li class="contact"><a class="links" href="tel:7573751195">phone:</a>757.375.1195</li>
-          <li class="contact"><a class="links" href="mailto:caitlin.callas@gmail.com">email:</a>caitlin.callas@gmail.com</li>
+          <li class="contact"><a class="links" href="tel:7573751195">Phone:</a> 757.375.1195</li>
+          <li class="contact"><a class="links" href="mailto:caitlin.callas@gmail.com">Email:</a> caitlin.callas@gmail.com</li>
           <li class="contact"><a class="links" href="https://linkedin.com/in/caitlincallas">LinkedIn: linkedin.com/in/caitlincallas</a></li>
         </ul>
       </div>
@@ -38,30 +40,39 @@
       <div class="dividers"></div>
 
       <div id="body">
-        <div id="image">
+        <div id="image" class="fade-one">
         </div>
 
-        <form id="contact-form">
+        <form id="contact-form" action="mailto:caitlin.callas@gmail.com" method="post" enctype="text/plain">
           <div id="names">
             <div id="first">
-              <input value="First Name" type="text" id="first-name" name="user_first">
+              <label for="first-name">First Name *</label><br />
+              <input type="text" id="first-name" name="user_first">
             </div>
 
             <div id="last">
-              <input value="Last Name" type="text" id="last-name" name="user_last">
+              <label for="last-name">Last Name *</label><br />
+              <input type="text" id="last-name" name="user_last">
             </div>
           </div>
 
           <div id="email">
-              <input value="Your Email" type="email" id="mail" name="user_mail">
+            <label for="mail">Email *</label><br />
+            <input type="email" id="mail" name="user_email">
           </div>
 
           <div id="subject">
-              <input value="Subject" type="text" id="subject-line" name="user_mail">
+            <label for="subject-line">Subject *</label><br />
+            <input type="text" id="subject-line" name="user_subject">
           </div>
 
           <div id="message">
-              <input value="Message..." id="msg" name="user_message"></input>
+            <label for="msg">Message *</label><br />
+            <input id="msg" name="user_message"></input>
+          </div>
+
+          <div class="button">
+            <button type="submit">Send</button>
           </div>
         </form>
       </div>
@@ -72,5 +83,18 @@
         <p id="foot">© 2017 / CAITLIN CALLAS</p>
       </div>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyB_57YdP0MV4wg24D5wEI4MBiOTx270448",
+        authDomain: "cmcallas-e4dc6.firebaseapp.com",
+        databaseURL: "https://cmcallas-e4dc6.firebaseio.com",
+        projectId: "cmcallas-e4dc6",
+        storageBucket: "",
+        messagingSenderId: "553017717089"
+      };
+      firebase.initializeApp(config);
+    </script>
   </body>
 </html>
