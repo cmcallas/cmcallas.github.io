@@ -1,49 +1,3 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #d8bbb6;
-}
-
-#container {
-  margin: 0px 55px 0px 55px;
-}
-
-#header {
-  display: flex;
-  flex-direction: row;
-}
-
-#name {
-  padding: 30px 0px 0px 0px;
-  font-size: 40px;
-  width: 70vw;
-}
-
-nav {
-  font-size: 12px;
-  padding-top: 40px;
-  width: 30vw;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.dividers {
-  border: 1px solid #e3cfcb;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
 #picture1 {
   background: url("../images/background1.jpg");
   background-position: center;
@@ -149,16 +103,88 @@ a {
   margin-top: 75px;
 }
 
-#footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+@media only screen and (max-width: 800px)  {
+  #container {
+    margin: 0px 55px 0px 55px;
+  }
 
-#active, .pages:hover {
-  border-bottom: 2px solid #e3cfcb;
-}
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.pages {
-  padding-bottom: 5px;
+  #name {
+    font-size: 60px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  li {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+  }
+
+  #body2, #body3 {
+      /* padding-top: 75px; */
+      padding-bottom: 75px;
+      display: flex;
+      flex-direction: row;
+  }
+
+  #picture2 {
+    width: 700px;
+    height: 475px;
+    margin-left: -20px;
+    margin-top: 100px;
+  }
+
+  #statement3, #statement4 {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 350px;
+    width: 480px;
+  }
+
+  #statement3 {
+    margin-top: 80px;
+    margin-left: 55px;
+  }
+
+  #picture3 {
+    background: url("../images/picture3.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 575px;
+  }
+
+  #statement4 {
+    height: 325px;
+    width: 480px;
+    margin-left: 685px;
+    margin-top: 75px;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #active, .pages:hover {
+    border-bottom: 2px solid #e3cfcb;
+  }
+
+  .pages {
+    padding-bottom: 5px;
+  }
 }

@@ -1,0 +1,50 @@
+.body {
+  margin: 0px 55px 0px 55px;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 35px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 35px;
+}
+
+.info {
+  line-height: 25px;
+  padding-bottom: 35px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.data {
+  line-height: 25px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#image1 {
+  background: url("../voya-images/voya3.jpeg");
+  height: 650px;
+  width: 100%;
+}
+
+#image2 {
+
+}
