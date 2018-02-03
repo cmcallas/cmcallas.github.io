@@ -39,6 +39,26 @@
   background-repeat: no-repeat;
 }
 
+#body2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column-one, .column-two {
+  flex: 1;
+}
+
+.fine-print {
+  font-size: 12px;
+  margin-bottom: 100px;
+}
+
+#competitive {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 #image1 {
   background: url("../voya-images/voya3.jpeg");
   height: 650px;
@@ -46,5 +66,17 @@
 }
 
 #image2 {
+  background: url("../voya-images/voya4.jpeg");
+  width: 400px;
+  height: 250px;
+  background-size: contain;
+  margin-left: 30px;
+}
 
+#image3 {
+  background: url("../voya-images/voya5.jpeg");
+  width: 900px;
+  height: 285.5px;
+  background-size: contain;
+  margin-bottom: 25px;
 }
