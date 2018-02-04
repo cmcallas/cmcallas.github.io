@@ -63,6 +63,17 @@
   margin-bottom: 50px;
 }
 
+#dialog1 {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 350px;
+  width: 400px;
+  margin-right: 700px;
+  margin-top: 100px;
+}
+
 #image1 {
   background: url("../voya-images/voya3.jpeg");
   height: 600px;
@@ -91,4 +102,14 @@
   height: 600px;
   background-size: cover;
   margin-left: 30px;
+}
+
+#image5 {
+  background: url("../voya-images/voya7.png");
+  width: 675px;
+  height: 450px;
+  background-size: contain;
+  margin-left: 400px;
+  margin-bottom: 100px;
+  margin-top: 50px;
 }
