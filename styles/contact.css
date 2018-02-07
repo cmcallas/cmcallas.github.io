@@ -1,0 +1,80 @@
+#hi, #list2 {
+  flex: 1;
+}
+
+#hi {
+  font-size: 35px;
+}
+
+li {
+  padding: 0 5px 5px 5px;
+}
+
+#main-contact, #body {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+#image {
+  background: url("../images/contact.jpeg");
+  background-position: center;
+  background-size:  cover;
+  background-repeat: no-repeat;
+  width: 530px;
+  height: 700px;
+  margin-right: 30px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+}
+
+#names {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+#first-name {
+  width: 200px;
+  height: 30px;
+}
+
+#last-name {
+  width: 200px;
+  height: 30px;
+}
+
+#mail {
+  width: 500px;
+  height: 30px;
+  margin-bottom: 40px;
+}
+
+#subject-line {
+  width: 500px;
+  height: 30px;
+  margin-bottom: 40px;
+}
+
+#msg {
+  width: 500px;
+  height: 90px;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #262626;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  width: 250px;
+  height: 50px;
+}

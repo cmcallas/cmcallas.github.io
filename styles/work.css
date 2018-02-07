@@ -1,0 +1,91 @@
+#title {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 125px;
+}
+
+.container-one, .container-two {
+  display: flex;
+  flex-direction: row;
+}
+
+.image1, .info-container1, .image2, .info-container2 {
+  flex: 1;
+}
+
+.image1, .info-container2 {
+  margin-right: 30px;
+}
+
+.image1, .info-container2 {
+  margin-right: 30px;
+}
+
+.project-title {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.info {
+  font-size: 20px;
+  padding-bottom: 125px;
+}
+
+.project-link {
+  color: white;
+}
+
+.view-work {
+  background-color: #262626;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  width: 250px;
+  height: 50px;
+  margin: auto;
+}
+
+#voya-image1 {
+  background: url("../images/voya1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 530px;
+  height: 530px;
+}
+
+#voya-image2 {
+  background: url("../images/picture3.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 530px;
+  height: 420px;
+}
+
+#spec-image1 {
+  background: url("../images/spec1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 440px;
+  height: 340px;
+}
+
+#spec-image2 {
+  background: url("../images/spec2.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 440px;
+  height: 275px;
+}
+
+#sleep {
+  background: url("../images/sleep.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 440px;
+  height: 440px;
+}

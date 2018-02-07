@@ -1,0 +1,65 @@
+#body {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+#left-container, #right-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#left-container {
+  padding-right: 30px;
+}
+
+#right-container {
+  padding-left: 30px;
+}
+
+#picture1 {
+  background: url("../images/ccallas1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 530px;
+  height: 390px;
+}
+
+#photo-credit {
+  font-size: 12px;
+}
+
+.links {
+  color: white;
+  width: 250px;
+  height: 50px;
+}
+
+#download {
+  background-color: #262626;
+  line-height: 50px;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  margin-top: 35px;
+}
+
+#title {
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+
+p {
+  line-height: 20px;
+}
+
+#info1 {
+  padding-bottom: 70px;
+}
+
+#info2 {
+  padding-bottom: 70px;
+}
